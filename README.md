@@ -10,15 +10,15 @@ Claude Code has no memory between sessions. This template solves that with struc
 
 **`/spark`** interviews you about your project and generates:
 
-| File                  | Purpose                                    |
-| --------------------- | ------------------------------------------ |
-| `SPEC.md`             | Requirements, success criteria, scope      |
-| `CLAUDE.md`           | Project constitution and interaction rules |
-| `STATUS.md`           | Current phase and next priorities           |
-| `TECHNICAL-CORE.md`   | Schema, endpoints, recent decisions        |
-| `docs/ARCHITECTURE.md`| System design and guardrails               |
-| `BACKLOG.md`          | Prioritized roadmap                        |
-| `PROJECT-LOG.md`      | Session history                            |
+| File                   | Purpose                                    |
+| ---------------------- | ------------------------------------------ |
+| `SPEC.md`              | Requirements, success criteria, scope      |
+| `CLAUDE.md`            | Project constitution and interaction rules |
+| `STATUS.md`            | Current phase and next priorities          |
+| `TECHNICAL-CORE.md`    | Schema, endpoints, recent decisions        |
+| `docs/ARCHITECTURE.md` | System design and guardrails               |
+| `BACKLOG.md`           | Prioritized roadmap                        |
+| `PROJECT-LOG.md`       | Session history                            |
 
 ## The Session Lifecycle
 
@@ -39,12 +39,14 @@ Context  Tasks      Changes         State     Memory
 ## Getting Started
 
 1. **Clone this template:**
+
    ```bash
    gh repo create my-project --template your-username/claude-spark --clone
    cd my-project
    ```
 
 2. **Run the spark interview:**
+
    ```
    /spark
    ```
@@ -58,36 +60,36 @@ Context  Tasks      Changes         State     Memory
 
 ### Core Skills (included)
 
-| Skill | Purpose |
-| ----- | ------- |
-| `/spark` | One-time project interview and doc generation |
-| `/start` | Begin session, hydrate context |
-| `/done` | End session, persist state to docs |
-| `/strategy` | Strategic advisor conversation (no code) |
-| `/deploy-and-verify` | Git sync, build, deploy, verify |
-| `systematic-debugging` | Root-cause-first debugging process |
-| `test-driven-development` | Red-green-refactor TDD workflow |
-| `verification-before-completion` | Evidence before claims |
-| `dispatching-parallel-agents` | Parallel agent task delegation |
-| `frontend-design` | Distinctive, production-grade UI design |
+| Skill                            | Purpose                                       |
+| -------------------------------- | --------------------------------------------- |
+| `/spark`                         | One-time project interview and doc generation |
+| `/start`                         | Begin session, hydrate context                |
+| `/done`                          | End session, persist state to docs            |
+| `/strategy`                      | Strategic advisor conversation (no code)      |
+| `/deploy-and-verify`             | Git sync, build, deploy, verify               |
+| `systematic-debugging`           | Root-cause-first debugging process            |
+| `test-driven-development`        | Red-green-refactor TDD workflow               |
+| `verification-before-completion` | Evidence before claims                        |
+| `dispatching-parallel-agents`    | Parallel agent task delegation                |
+| `frontend-design`                | Distinctive, production-grade UI design       |
 
 ### Optional Skills
 
 Copy from `optional-skills/` into `.claude/skills/` if relevant:
 
-| Skill | Use If |
-| ----- | ------ |
-| `design-audit` | Your project has a UI (UX heuristic evaluation) |
+| Skill                  | Use If                                              |
+| ---------------------- | --------------------------------------------------- |
+| `design-audit`         | Your project has a UI (UX heuristic evaluation)     |
 | `react-best-practices` | You're using React/Next.js (Vercel perf guidelines) |
 
 See [`optional-skills/README.md`](optional-skills/README.md) for installation.
 
 ### Agents
 
-| Agent | Purpose |
-| ----- | ------- |
-| `doc-updater` | Detects drift between code and documentation |
-| `security-reviewer` | Pre-deploy vulnerability scan |
+| Agent               | Purpose                                      |
+| ------------------- | -------------------------------------------- |
+| `doc-updater`       | Detects drift between code and documentation |
+| `security-reviewer` | Pre-deploy vulnerability scan                |
 
 ## How It Works
 
@@ -105,6 +107,15 @@ See [`docs/WORKFLOW-ARCHITECTURE.md`](docs/WORKFLOW-ARCHITECTURE.md) for the ful
 ## Origin
 
 Extracted from the [Scraps](https://scraps.kitchen) project, where this workflow powered 112 features shipped across 4 weeks of occasional solo development with Claude Code. 
+
+## Acknowledgments
+
+The workflow patterns in this template were shaped by ideas and practices from across the Claude Code community:
+
+- **[Boris Cherny](https://github.com/anthropics/claude-code-best-practices)** / Anthropic — Claude Code best practices and CLAUDE.md conventions
+- **[Tommy Geoco](https://github.com/tommygeoco/ui-audit)** — Design audit skill (included in optional-skills, MIT licensed)
+- **[Vercel Engineering](https://github.com/vercel)** — React best practices skill (included in optional-skills, MIT licensed)
+- The broader Claude Code community on X/Twitter and GitHub, whose shared experiments with skills, agents, and session workflows informed many of the patterns here
 
 ## License
 
