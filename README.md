@@ -106,12 +106,14 @@ See [`docs/WORKFLOW-ARCHITECTURE.md`](docs/WORKFLOW-ARCHITECTURE.md) for the ful
 
 ## Origin
 
-Extracted from the [Scraps](https://scraps.kitchen) project, where this workflow powered 112 features shipped across 4 weeks of occasional solo development with Claude Code. 
+Extracted from the [Scraps](https://scraps.kitchen) project, where this workflow powered 112 features shipped across 4 weeks of occasional solo development with Claude Code.
 
 ## Acknowledgments
 
 The workflow patterns in this template were shaped by ideas and practices from across the Claude Code community:
 
+- **[Superpowers](https://github.com/jlowin/claude-code-superpowers)** by Jeremiah Lowin — Core engineering skills (systematic-debugging, TDD, verification-before-completion, dispatching-parallel-agents, frontend-design)
+- **[@seconds_0](https://x.com/seconds_0)** — The spark interview concept was inspired by their project onboarding prompt
 - **[Boris Cherny](https://github.com/anthropics/claude-code-best-practices)** / Anthropic — Claude Code best practices and CLAUDE.md conventions
 - **[Tommy Geoco](https://github.com/tommygeoco/ui-audit)** — Design audit skill (included in optional-skills, MIT licensed)
 - **[Vercel Engineering](https://github.com/vercel)** — React best practices skill (included in optional-skills, MIT licensed)
