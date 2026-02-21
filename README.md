@@ -104,7 +104,7 @@ See [`docs/WORKFLOW-ARCHITECTURE.md`](docs/WORKFLOW-ARCHITECTURE.md) for the ful
 
 ## Origin
 
-Extracted from the [Scraps](https://scraps.kitchen) project, where this workflow powered 112 features shipped across 4 weeks of solo development with Claude Code. The patterns are battle-tested, not theoretical.
+Extracted from the [Scraps](https://scraps.kitchen) project, where this workflow powered 112 features shipped across 4 weeks of occasional solo development with Claude Code. 
 
 ## License
 
