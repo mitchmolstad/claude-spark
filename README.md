@@ -93,7 +93,7 @@ See [`optional-skills/README.md`](optional-skills/README.md) for installation.
 
 ## How It Works
 
-The workflow is built on one insight: **AI collaboration scales through externalized structure, not internal memory.**
+The workflow is built on one insight: **Keep building useful stuff as things get complex through smart scaffolding and memory-that-matters.**
 
 By encoding project knowledge in version-controlled markdown:
 
@@ -106,7 +106,7 @@ See [`docs/WORKFLOW-ARCHITECTURE.md`](docs/WORKFLOW-ARCHITECTURE.md) for the ful
 
 ## Origin
 
-Extracted from the [Scraps](https://scraps.kitchen) project, where this workflow powered 112 features shipped across 4 weeks of occasional solo development with Claude Code.
+Extracted from the [Scraps](https://scraps.kitchen) project, where the creator cobbled this workflow together after 4 weeks of occasional solo development with Claude Code while absorbing flashes of community content.
 
 ## Acknowledgments
 
